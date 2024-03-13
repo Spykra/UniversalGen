@@ -23,9 +23,9 @@ docker-compose up -d
 This command will build and start all the required services defined in docker-compose.yml. The Airflow web interface will be available at http://localhost:8080.
 
 ## Components
-- DAG Definition: Defines the workflow and tasks for analyzing earth surface temperature data.
-- Modules:
-    analysis.py: Contains functions for loading, cleaning, and analyzing temperature data.
-    additional_analysis.py: Functions for additional data analysis, like outlier detection.
-    summary.py: Generates summary statistics from the cleaned data.
-    post_analysis.py: Generates a summary report from the analysis results.
+### DAG Definition: Defines the workflow and tasks for analyzing earth surface temperature data.
+### Modules:
+- analysis.py: Contains functions for loading, cleaning, and analyzing temperature data.
+- additional_analysis.py: Functions for additional data analysis, like outlier detection.
+- summary.py: Generates summary statistics from the cleaned data.
+- post_analysis.py: Generates a summary report from the analysis results.
